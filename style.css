@@ -1,0 +1,142 @@
+/* Common Design */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif; */
+}
+
+.title-text {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.sub-text {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+}
+
+.title-text2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/* styling for header */
+.header-part {
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+
+.right-side {
+  padding-left: 240px;
+  padding-top: 197px;
+}
+
+.header-text,
+.header-sub {
+  margin-bottom: 32px;
+}
+
+.header-img {
+  margin: 50px;
+}
+
+.featured-subtext {
+  text-align: center;
+}
+
+.featured-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 178px;
+}
+
+.featured-subtext {
+  margin-top: 24px;
+}
+
+/* pic-1 design */
+.pic-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-pic1 {
+  width: 464px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-right: 24px;
+}
+
+.img-pic1 {
+  width: 310px;
+  height: 428px;
+}
+
+/* offer div */
+.offer-div {
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+/* Rectangle Image */
+
+.rect-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+.rect-pic {
+  width: 342px;
+  height: 396px;
+  margin-right: 24px;
+}
+
+.emailSection {
+  height: 449px;
+  border-radius: 8px;
+  background-image: url("./img/Rectangle9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 8px;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+}
+
+.foot-div {
+  width: 1922px;
+  height: 449px;
+  background: #111010;
+  margin-top: 128px;
+}
