@@ -158,8 +158,23 @@ body {
 .extra a{
     text-decoration: none;
     color: #111010;
+    padding: 5px;
+    margin: 5px;
 }
 
 .extra a:hover{
-    color: #e55473;
+    color: #36131b;
+
+    background-color: #f0bec8;
+}
+
+.extra-ic{
+  width: 100px;
+}
+
+.cmn-extra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
