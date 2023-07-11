@@ -219,6 +219,26 @@ body {
   font-weight: 400;
 }
 
+.subs-btn{
+  margin-left: 16px;
+  border-radius: 8px;
+background: #E55473;
+  width: 150px;
+height: 64px;
+color: #FFF;
+
+font-size: 20px;
+
+font-weight: 700;
+border: 0px;
+
+}
+
+
+
+
+
+/* footer section */
 .foot-div {
   height: 449px;
   background: #111010;
@@ -239,7 +259,7 @@ body {
   color: rgba(255, 255, 255, 0.90);
   text-align: center;
   margin-top: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .copyright{
