@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 
-.flower-pic{
+.flower-pic {
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
@@ -96,54 +96,68 @@ body {
   display: flex;
   justify-content: center;
   align-items: end;
-
 }
 
 .img-pic {
   width: 310px;
-  height: 428px; 
+  height: 428px;
 }
 
-
-.f-two{
+.f-two {
   background: rgba(5, 151, 160, 0.15);
 }
 
-.f-three{
+.f-three {
   background: rgba(71, 125, 17, 0.15);
 }
 
 /* Caption flower design */
 
-.caption-flower{
+.caption-flower {
   margin-top: 32px;
-color: #272727;
-text-align: center;
+  margin-bottom: 128px;
+  color: #272727;
+  text-align: center;
 
-font-size: 24px;
+  font-size: 24px;
 
-font-weight: 700;
+  font-weight: 700;
 
-text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
-.package{
+.package {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
-
-
-
-
 
 /* offer div */
 .offer-div {
   height: 620px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-text {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.span-offer {
+  color: #e55473;
 }
 
 /* Rectangle Image */
@@ -161,6 +175,7 @@ text-decoration-line: underline;
   margin-right: 24px;
 }
 
+/* Email Section */
 .emailSection {
   height: 449px;
   border-radius: 8px;
@@ -173,47 +188,115 @@ text-decoration-line: underline;
   width: 1440px;
   height: 449px;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-subText {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.inputEmail {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+}
+
+.inputEmail::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+
+  padding: 22px;
+
+  font-size: 16px;
+
+  font-weight: 400;
 }
 
 .foot-div {
-  width: 1922px;
   height: 449px;
   background: #111010;
   margin-top: 128px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+
+.foot-title{
+  color: #fff;
+}
+
+.foot-sub-text{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+
+.foot-span{
+  color: #E55473;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* eXTRA div styles */
 
-.extra{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
-
+.extra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.extra a{
-    text-decoration: none;
-    color: #111010;
-    padding: 5px;
-    margin: 5px;
+.extra a {
+  text-decoration: none;
+  color: #111010;
+  padding: 5px;
+  margin: 5px;
 }
 
-.extra a:hover{
-    color: #36131b;
+.extra a:hover {
+  color: #36131b;
 
-    background-color: #f0bec8;
+  background-color: #f0bec8;
 }
 
-.extra-ic{
+.extra-ic {
   width: 100px;
 }
 
-.cmn-extra{
+.cmn-extra {
   display: flex;
   justify-content: center;
   align-items: center;
