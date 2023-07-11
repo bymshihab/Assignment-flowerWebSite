@@ -54,9 +54,15 @@ body {
   padding-top: 197px;
 }
 
-.header-text,
+.header-text
+ {
+  margin-bottom: 32px;
+ 
+}
+
 .header-sub {
   margin-bottom: 32px;
+  line-height: 1.7;
 }
 
 .header-img {
@@ -148,6 +154,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 180px;
 }
 
 .offer-text {
