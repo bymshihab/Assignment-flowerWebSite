@@ -73,30 +73,71 @@ body {
   align-items: center;
   flex-flow: column;
   margin-top: 178px;
+  margin-bottom: 48px;
 }
 
 .featured-subtext {
   margin-top: 24px;
 }
 
-/* pic-1 design */
+/* featured flower design */
 .pic-flower {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flower-pic1 {
+.flower-pic{
   width: 464px;
+  height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
 }
 
-.img-pic1 {
+.img-pic {
   width: 310px;
-  height: 428px;
+  height: 428px; 
 }
+
+
+.f-two{
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.f-three{
+  background: rgba(71, 125, 17, 0.15);
+}
+
+/* Caption flower design */
+
+.caption-flower{
+  margin-top: 32px;
+color: #272727;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 700;
+
+text-decoration-line: underline;
+}
+
+.package{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
 
 /* offer div */
 .offer-div {
